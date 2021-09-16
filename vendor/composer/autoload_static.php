@@ -21,6 +21,7 @@ class ComposerStaticInit2b5d13d6527733fa019edde33d82c8e1
     );
 
     public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'SRAG\\PegasusHelper\\authentication\\DefaultUserTokenAuthenticator' => __DIR__ . '/../..' . '/classes/authentication/DefaultUserTokenAuthenticator.php',
         'SRAG\\PegasusHelper\\authentication\\UserTokenAuthenticator' => __DIR__ . '/../..' . '/classes/authentication/UserTokenAuthenticator.php',
         'SRAG\\PegasusHelper\\container\\PegasusHelperContainer' => __DIR__ . '/../..' . '/classes/container/PegasusHelperContainer.php',
@@ -34,8 +35,8 @@ class ComposerStaticInit2b5d13d6527733fa019edde33d82c8e1
         'SRAG\\PegasusHelper\\handler\\ChainRequestHandler' => __DIR__ . '/../..' . '/classes/handler/ChainRequestHandler.php',
         'SRAG\\PegasusHelper\\handler\\ExcludedHandler\\ExcludedHandler' => __DIR__ . '/../..' . '/classes/handler/ExcludedHandler/ExcludedHandler.php',
         'SRAG\\PegasusHelper\\handler\\ExcludedHandler\\v52\\ExcludedHandlerImpl' => __DIR__ . '/../..' . '/classes/handler/ExcludedHandler/v52/ExcludedHandlerImpl.php',
-        'SRAG\\PegasusHelper\\handler\\LoginPageHandler\\LoginPageManager' => __DIR__ . '/../..' . '/classes/handler/LoginPageManager/LoginPageManager.php',
-        'SRAG\\PegasusHelper\\handler\\LoginPageHandler\\v52\\LoginPageManagerImpl' => __DIR__ . '/../..' . '/classes/handler/LoginPageManager/v52/LoginPageManagerImpl.php',
+        'SRAG\\PegasusHelper\\handler\\LoginPageManager\\LoginPageManager' => __DIR__ . '/../..' . '/classes/handler/LoginPageManager/LoginPageManager.php',
+        'SRAG\\PegasusHelper\\handler\\LoginPageManager\\v52\\LoginPageManagerImpl' => __DIR__ . '/../..' . '/classes/handler/LoginPageManager/v52/LoginPageManagerImpl.php',
         'SRAG\\PegasusHelper\\handler\\NewsLinkRedirectHandler\\NewsLinkRedirectHandler' => __DIR__ . '/../..' . '/classes/handler/NewsLinkRedirectHandler/NewsLinkRedirectHandler.php',
         'SRAG\\PegasusHelper\\handler\\NewsLinkRedirectHandler\\v52\\NewsLinkRedirectHandlerImpl' => __DIR__ . '/../..' . '/classes/handler/NewsLinkRedirectHandler/v52/NewsLinkRedirectHandlerImpl.php',
         'SRAG\\PegasusHelper\\handler\\NewsLinkRedirectHandler\\v6\\NewsLinkRedirectHandlerImpl' => __DIR__ . '/../..' . '/classes/handler/NewsLinkRedirectHandler/v6/NewsLinkRedirectHandlerImpl.php',

@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'SRAG\\PegasusHelper\\authentication\\DefaultUserTokenAuthenticator' => $baseDir . '/classes/authentication/DefaultUserTokenAuthenticator.php',
     'SRAG\\PegasusHelper\\authentication\\UserTokenAuthenticator' => $baseDir . '/classes/authentication/UserTokenAuthenticator.php',
     'SRAG\\PegasusHelper\\container\\PegasusHelperContainer' => $baseDir . '/classes/container/PegasusHelperContainer.php',
@@ -19,8 +20,8 @@ return array(
     'SRAG\\PegasusHelper\\handler\\ChainRequestHandler' => $baseDir . '/classes/handler/ChainRequestHandler.php',
     'SRAG\\PegasusHelper\\handler\\ExcludedHandler\\ExcludedHandler' => $baseDir . '/classes/handler/ExcludedHandler/ExcludedHandler.php',
     'SRAG\\PegasusHelper\\handler\\ExcludedHandler\\v52\\ExcludedHandlerImpl' => $baseDir . '/classes/handler/ExcludedHandler/v52/ExcludedHandlerImpl.php',
-    'SRAG\\PegasusHelper\\handler\\LoginPageHandler\\LoginPageManager' => $baseDir . '/classes/handler/LoginPageManager/LoginPageManager.php',
-    'SRAG\\PegasusHelper\\handler\\LoginPageHandler\\v52\\LoginPageManagerImpl' => $baseDir . '/classes/handler/LoginPageManager/v52/LoginPageManagerImpl.php',
+    'SRAG\\PegasusHelper\\handler\\LoginPageManager\\LoginPageManager' => $baseDir . '/classes/handler/LoginPageManager/LoginPageManager.php',
+    'SRAG\\PegasusHelper\\handler\\LoginPageManager\\v52\\LoginPageManagerImpl' => $baseDir . '/classes/handler/LoginPageManager/v52/LoginPageManagerImpl.php',
     'SRAG\\PegasusHelper\\handler\\NewsLinkRedirectHandler\\NewsLinkRedirectHandler' => $baseDir . '/classes/handler/NewsLinkRedirectHandler/NewsLinkRedirectHandler.php',
     'SRAG\\PegasusHelper\\handler\\NewsLinkRedirectHandler\\v52\\NewsLinkRedirectHandlerImpl' => $baseDir . '/classes/handler/NewsLinkRedirectHandler/v52/NewsLinkRedirectHandlerImpl.php',
     'SRAG\\PegasusHelper\\handler\\NewsLinkRedirectHandler\\v6\\NewsLinkRedirectHandlerImpl' => $baseDir . '/classes/handler/NewsLinkRedirectHandler/v6/NewsLinkRedirectHandlerImpl.php',

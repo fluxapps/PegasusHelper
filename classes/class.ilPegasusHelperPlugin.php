@@ -1,5 +1,7 @@
 <?php
 
+use ILIAS\DI\Container;
+
 require_once __DIR__ . '/../bootstrap.php';
 
 /**
@@ -14,21 +16,36 @@ final class ilPegasusHelperPlugin extends ilUserInterfaceHookPlugin
     /**
      * @var ilPegasusHelperPlugin
      */
-    protected static $instance;
+    private static $instance;
 
+    /**
+     * @var ilPluginAdmin $plugin
+     */
+    private $plugin;
 
     /**
      * @return ilPegasusHelperPlugin
      */
     public static function getInstance()
     {
-        if (!isset(static::$instance)) {
-            static::$instance = new static();
+        if (!isset(ilPegasusHelperPlugin::$instance)) {
+            ilPegasusHelperPlugin::$instance = new self();
         }
 
-        return static::$instance;
+        return ilPegasusHelperPlugin::$instance;
     }
 
+    public function __construct()
+    {
+        parent::__construct();
+
+        /**
+         * @var Container $DIC
+         */
+        global $DIC;
+
+        $this->plugin = $DIC['ilPluginAdmin'];
+    }
 
     /**
      * @return string
@@ -43,11 +60,7 @@ final class ilPegasusHelperPlugin extends ilUserInterfaceHookPlugin
      */
     protected function beforeUpdate()
     {
-        /**
-         * @var ilPluginAdmin $ilPluginAdmin
-         */
-        global $ilPluginAdmin;
-        if (!$ilPluginAdmin->isActive(IL_COMP_SERVICE, 'UIComponent', 'uihk', 'REST')) {
+        if (!$this->plugin->isActive(IL_COMP_SERVICE, 'UIComponent', 'uihk', 'REST')) {
             ilUtil::sendFailure('Please install the ILIAS REST Plugin first!', true);
             return false;
         }
