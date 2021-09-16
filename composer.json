@@ -1,14 +1,17 @@
 {
-  "name": "studer-raimann.ag/pegasus-helper",
-  "description": "Plugin which solves integartion problems with ILIAS for the ILIAS pegasus app developed my studer+raimann ag",
+  "name": "fluxlabs/pegasus-helper",
+  "description": "Plugin which solves integartion problems with ILIAS for the ILIAS pegasus app developed by fluxlabs ag",
   "type": "project",
   "license": "GPL-3.0",
   "authors": [
     {
       "name": "Nicolas Schaefli",
-      "email": "ns@studer-raimann.ch"
+      "email": "nick@fluxlabs.ch"
     }
   ],
+  "support": {
+    "email": "support@fluxlabs.ch"
+  },
   "minimum-stability": "stable",
   "require": {},
   "autoload": {
