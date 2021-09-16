@@ -1,6 +1,6 @@
 <?php
 
-namespace SRAG\PegasusHelper\handler\LoginPageHandler;
+namespace SRAG\PegasusHelper\handler\LoginPageManager;
 
 use SRAG\PegasusHelper\handler\ChainRequestHandler;
 

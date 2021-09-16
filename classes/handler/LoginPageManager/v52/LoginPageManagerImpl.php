@@ -1,9 +1,9 @@
 <?php
 
-namespace SRAG\PegasusHelper\handler\LoginPageHandler\v52;
+namespace SRAG\PegasusHelper\handler\LoginPageManager\v52;
 
 use SRAG\PegasusHelper\handler\BaseHandler;
-use SRAG\PegasusHelper\handler\LoginPageHandler\LoginPageManager;
+use SRAG\PegasusHelper\handler\LoginPageManager\LoginPageManager;
 
 /**
  * Class LoginPageManager handles the display of a specific Login Page

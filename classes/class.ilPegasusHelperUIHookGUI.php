@@ -4,7 +4,7 @@
 use SRAG\PegasusHelper\container\PegasusHelperContainer;
 use SRAG\PegasusHelper\handler\ChainRequestHandler;
 use SRAG\PegasusHelper\handler\ExcludedHandler\ExcludedHandler;
-use SRAG\PegasusHelper\handler\LoginPageHandler\LoginPageManager;
+use SRAG\PegasusHelper\handler\LoginPageManager\LoginPageManager;
 use SRAG\PegasusHelper\handler\NewsLinkRedirectHandler\NewsLinkRedirectHandler;
 use SRAG\PegasusHelper\handler\OAuthManager\OAuthManager;
 use SRAG\PegasusHelper\handler\OAuthManager\v52\OauthManagerImpl;
