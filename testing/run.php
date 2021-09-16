@@ -11,7 +11,7 @@ include_once "includefile.php";
 
 // setup
 
-init();
+initPegasusHelperCLI();
 
 printNormal("Diagnostics for REST- and PegasusHelper-plugins\n");
 printNormal("===============================================\n");

@@ -4,7 +4,7 @@
  * helper-functions to perform the tests in the cli
  */
 
-function init()
+function initPegasusHelperCLI()
 {
     global $printLog;
     $printLog = [];
