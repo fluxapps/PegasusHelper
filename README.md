@@ -15,7 +15,7 @@ Features:
 
 
 ## Requirements
-* Version: ILIAS 5.3 to 6
+* Version: ILIAS 5.3 to 7
 * PHP 5.6 or PHP 7.0 - 7.4
 
 ## Installation
@@ -116,11 +116,11 @@ This project is licensed under the GNU GPLv3 License - see the LICENSE.md file f
 
 ## Contact
 
-studer + raimann ag  
-Farbweg 9  
+fluxlabs AG
+Scheunenstrasse 19
 3400 Burgdorf  
 Switzerland
 
-[info@studer-raimann.ch](mailto:info@studer-raimann.ch)  
-<https://www.studer-raimann.ch>
+[connect@fluxlabs.ch](mailto:connect@fluxlabs.ch)  
+<https://fluxlabs.ch>
 
