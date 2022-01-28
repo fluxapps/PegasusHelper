@@ -33,6 +33,7 @@ final class PegasusHelperContainer
      */
     public static function bootstrap()
     {
+        global $DIC;
         static::$container = $GLOBALS['DIC'];
 
         static::$container->register(new AuthenticationProvider());
