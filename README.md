@@ -118,4 +118,4 @@ This project is licensed under the GNU GPLv3 License - see the LICENSE.md file f
 Please create pull requests :fire:
 
 ## Adjustment suggestions / bug reporting :feet:
-Please [Read and create issues](https://github.com/fluxapps/PegasusHelper/issues)
+Please [read and create issues](https://github.com/fluxapps/PegasusHelper/issues) :kissing_heart:
