@@ -114,13 +114,8 @@ This project is licensed under the GNU GPLv3 License - see the LICENSE.md file f
 ## Acknowledgments
 [composer](https://getcomposer.org/)
 
-## Contact
+## Contributing :purple_heart:
+Please create pull requests :fire:
 
-fluxlabs AG
-Scheunenstrasse 19
-3400 Burgdorf  
-Switzerland
-
-[connect@fluxlabs.ch](mailto:connect@fluxlabs.ch)  
-<https://fluxlabs.ch>
-
+## Adjustment suggestions / bug reporting :feet:
+Please [Read and create issues](https://github.com/fluxapps/PegasusHelper/issues)
