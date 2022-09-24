@@ -36,7 +36,7 @@ Update and activate the plugin in the ILIAS Plugin Administration.
 Start at your ILIAS root directory 
 ```bash
 cd Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/  
-git clone https://github.com/studer-raimann/PegasusHelper.git  
+git clone https://github.com/fluxapps/PegasusHelper.git  
 ```
 Update and activate the plugin in the ILIAS Plugin Administration.
 
